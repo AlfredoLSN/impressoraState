@@ -1,7 +1,7 @@
 package com.example;
 
-public class ImpressoraEstado {
-    //public abstract String getEstado(){};
+public abstract class ImpressoraEstado {
+    public abstract String getEstado();
 
     public boolean iniciar(Impressora impressora){
         return false;
